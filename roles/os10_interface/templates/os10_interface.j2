@@ -128,7 +128,7 @@ interface {{ interface_key }}
     {% if intf_vars.ip_type_dynamic %} 
  ip address dhcp
     {% else %}
- no ip address
+ no ip address dhcp
     {% endif %}
   {% else %}
     {% if intf_vars.vrf is defined %}
